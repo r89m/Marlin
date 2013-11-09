@@ -124,6 +124,7 @@
 // M218 - set hotend offset (in mm): T<extruder_number> X<offset_on_X> Y<offset_on_Y>
 // M220 S<factor in percent>- set speed factor override percentage
 // M221 S<factor in percent>- set extrude factor override percentage
+// M226 P<pin number> S<required pin state>- Pause G Code execution until pin P sees the required state
 // M240 - Trigger a camera to take a photograph
 // M280 - set servo position absolute. P: servo index, S: angle or microseconds
 // M300 - Play beepsound S<frequency Hz> P<duration ms>
